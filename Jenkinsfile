@@ -1,12 +1,12 @@
 pipeline {
   agent {
     node {
-      label 'nodejs'
+      label 'default'
     }
 
   }
   stages {
-    stage('') {
+    stage('error') {
       steps {
         build 'Build'
       }
